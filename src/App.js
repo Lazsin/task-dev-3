@@ -3,7 +3,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-        <h1></h1>
+      <form className='form'>
+        <input placeholder='1234'></input>
+        <input placeholder='abcd'></input>
+        <button>button</button>
+      </form>
+      
     </div>
   );
 }
